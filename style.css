@@ -1,0 +1,21 @@
+.product_card {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.product_description {
+    font-weight: bold;
+}
+
+.product_link {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+.product_link:hover {
+    color: orange;
+}
