@@ -1,9 +1,19 @@
+.products_row {
+    display:flex;
+}
+
+.menu_second {
+    display: flex;
+}
 .product_card {
-    width: 200px;
-    height: 100px;
+    width: 270px;
+    height: 127px;
     background-color: white;
-    text-align: center;
     border: 1px solid black;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 3px black;
+    margin-right: 10px;
+
 }
 
 .product_description {
@@ -12,10 +22,17 @@
 
 .product_link {
     text-decoration: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     height: 100%;
 }
 
 .product_link:hover {
     color: orange;
+}
+
+.product_img {
+    margin-bottom: 10px;
 }
